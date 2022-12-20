@@ -562,6 +562,11 @@ video {
   margin-right: auto;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -590,6 +595,14 @@ video {
   width: 1.25rem;
 }
 
+.max-w-2xl{
+  max-width: 42rem;
+}
+
+.max-w-sm{
+  max-width: 24rem;
+}
+
 .items-center{
   align-items: center;
 }
@@ -612,6 +625,18 @@ video {
   background-image: url('../images/logo-light-mode.svg');
 }
 
+.bg-curvy-light-mode{
+  background-image: url('../images/bg-curvy-light-mode.svg');
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-center{
+  background-position: center;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
@@ -629,6 +654,32 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-52{
+  padding-top: 13rem;
+}
+
+.pt-32{
+  padding-top: 8rem;
+}
+
+.pb-52{
+  padding-bottom: 13rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .font-opensans{
   font-family: Open Sans, sans-serif;
 }
@@ -636,6 +687,19 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.leading-normal{
+  line-height: 1.5;
 }
 
 .text-gray-500{
@@ -678,6 +742,10 @@ video {
   background-image: url('../images/logo-dark-mode.svg');
 }
 
+.dark .dark\:bg-curvy-dark-mode{
+  background-image: url('../images/bg-curvy-dark-mode.svg');
+}
+
 .dark .dark\:text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -716,9 +784,27 @@ video {
     height: 2.5rem;
   }
 
+  .md\:max-w-lg{
+    max-width: 32rem;
+  }
+
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:pt-52{
+    padding-top: 13rem;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
